@@ -1,0 +1,13 @@
+# Streamlit appearance + server settings. Streamlit reads this file automatically.
+[theme]
+primaryColor = "#0f9d8a"        # teal instead of Streamlit's default red
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#eef6f5"
+textColor = "#1f2933"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false

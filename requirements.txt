@@ -1,0 +1,15 @@
+# Runtime dependencies (tested with Python 3.12 / 3.13)
+fastapi>=0.115
+uvicorn>=0.30
+sqlalchemy>=2.0
+pydantic>=2.7
+pyjwt>=2.8
+python-dotenv>=1.0
+requests>=2.31
+
+streamlit>=1.52
+plotly>=5.20
+pandas>=2.0
+
+# AI agents. 1.x talks to Grok through its OpenAI-compatible provider.
+crewai>=1.0,<2
